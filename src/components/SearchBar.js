@@ -6,12 +6,13 @@ class SearchBar extends React.Component{
 
     onChangeInput= event => {
         this.setState({term:event.target.value})
-    }
+    };
 
     onFormSubmit= event => {
-        event.preventDefault;
+        event.preventDefault()
         // call callback from parent component
-    }
+    };
+
     render() {
         return (
             <div className="search-bar ui segment">
